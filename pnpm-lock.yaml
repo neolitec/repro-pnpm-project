@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  only-allow: github:neolitec/only-allow
+  only-allow: github:neolitec/only-allow#fix/preinstall_npm
 
 devDependencies:
-  only-allow: github.com/neolitec/only-allow/da4620f9d2fad92c161f743c009be1b0f6b635b7
+  only-allow: github.com/neolitec/only-allow/de50c0ece0e75f19d3f72a22e3963952395bc51e
 
 packages:
 
@@ -128,8 +128,8 @@ packages:
       string-width: 4.2.3
     dev: true
 
-  github.com/neolitec/only-allow/da4620f9d2fad92c161f743c009be1b0f6b635b7:
-    resolution: {tarball: https://codeload.github.com/neolitec/only-allow/tar.gz/da4620f9d2fad92c161f743c009be1b0f6b635b7}
+  github.com/neolitec/only-allow/de50c0ece0e75f19d3f72a22e3963952395bc51e:
+    resolution: {tarball: https://codeload.github.com/neolitec/only-allow/tar.gz/de50c0ece0e75f19d3f72a22e3963952395bc51e}
     name: only-allow
     version: 1.1.1
     hasBin: true
