@@ -1,16 +1,16 @@
 {
-  "name": "test-package",
+  "name": "repro-pnpm-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "echo 'EXECUTE test-package:PREINSTALL' && npx only-allow pnpm"
+    "preinstall": "echo 'EXECUTE test-package:PREINSTALL' && npx only-allow npm"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "only-allow": "github:neolitec/only-allow#fix/preinstall_npm"
+    "only-allow": "github:neolitec/only-allow#test"
   }
 }
